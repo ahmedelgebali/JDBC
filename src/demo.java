@@ -17,6 +17,7 @@ public class demo{
             String qResult = rs.getString(1);
             System.out.println(qResult);
 
+            con.close();
 
 
         }catch (SQLException e){
